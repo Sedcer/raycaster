@@ -1,0 +1,32 @@
+{
+    "name": "raycaster",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "feather": "*",
+        "pxt-raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.15",
+        "light": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.30",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
